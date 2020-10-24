@@ -1,0 +1,118 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #dfe1ee;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.cont-all{
+    background-image: linear-gradient(to bottom,#f2f6ff,#eff2f9,#dadce9,#d4d6e2,#e0e3f0);
+    /* border:2px solid salmon; */
+    border-radius: 40px;
+  
+}
+h1,h2,h3,h4,h5,h6{
+ margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+
+/* headimg */
+
+.food-item{
+    
+    list-style: none;
+    
+}
+.food-item:hover{
+    
+    list-style: disc;
+    
+}
+.food-item>a:hover{
+    
+    background-color: #ffffff;
+    font-weight: bold;
+    
+    
+}
+.food-item>a{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    color: black;
+   
+}
+
+.navbar{
+    padding: 1% ;
+    
+}
+.icon-c{
+    color: black;
+}
+.nav-link{
+    color: black;
+    margin: 10px;
+    border-radius: 50px;
+   
+    font-weight: bold;
+    
+}
+.nav-link:hover{
+   
+    
+   
+    
+}
+.text-h1{
+    font-family: 'Montserrat', sans-serif
+}
+.text-s{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif
+}
+
+
+.card-c{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eaecf8+42,ffffff+100&0+36,1+100 */
+background: -moz-linear-gradient(-45deg,  rgba(234,236,248,0) 36%, rgba(234,236,248,0.09) 42%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(234,236,248,0) 36%,rgba(234,236,248,0.09) 42%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(234,236,248,0) 36%,rgba(234,236,248,0.09) 42%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00eaecf8', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    border-radius: 25px;
+}
+.card-d{
+    /* margin-left:100px ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        text-align: center;
+    }
+}
